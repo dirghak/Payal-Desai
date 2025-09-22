@@ -4,7 +4,7 @@ export default function ContactPage() {
         <h1 className="text-2xl font-bold tracking-tight">Contact</h1>
         <div className="card space-y-2">
           <p className="text-slate-700">
-            Open to Sr. Scrum Master / Scrum Master II roles • Hybrid/Remote • Calgary / Canada-wide.
+            Open to Sr. Scrum Master , Scrum Master II , Agile PM roles roles • Hybrid/Remote • Calgary / Canada-wide.
           </p>
           <p>
             Email: <a className="underline" href="mailto:payalukani92@gmail.com">payalukani92@gmail.com</a>
