@@ -7,7 +7,7 @@ export default function WorkModesPage() {
           <div className="card">
             <h2 className="font-semibold mb-2">Engagements</h2>
             <ul className="list-disc pl-5 space-y-1">
-              <li>Team Scrum Master (1–2 squads)</li>
+              <li>Team Scrum Master (2-3 squads)</li>
               <li>Program Scrum Master / RTE support (dependency & risk facilitation)</li>
               <li>Metrics & Dashboards (ADO/Jira queries, health & predictability)</li>
               <li>Agile Readiness Assessment (DoR/DoD, cadence, ceremonies)</li>
@@ -18,7 +18,7 @@ export default function WorkModesPage() {
           <div className="card">
             <h2 className="font-semibold mb-2">Availability</h2>
             <p className="text-slate-700">
-              Open to Sr. Scrum Master / Scrum Master II roles • Hybrid/Remote • Calgary / Canada-wide.
+              Open to Sr. Scrum Master , Scrum Master II , Agile PM roles • Hybrid/Remote • Calgary / Canada-wide.
             </p>
           </div>
         </div>
