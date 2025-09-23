@@ -30,7 +30,7 @@ export default function Page() {
             <Link href="/case-studies" className="rounded-2xl px-4 py-2 bg-indigo-600 text-white shadow-soft hover:bg-indigo-700">
               See case studies
             </Link>
-            <Link href="/resumes/Payal Desai_CV.pdf" target="_blank" className="rounded-2xl px-4 py-2 border border-slate-300 bg-white">
+            <Link href="/resumes/Payal_Desai.pdf" target="_blank" className="rounded-2xl px-4 py-2 border border-slate-300 bg-white">
               Resume (PDF)
             </Link>
           </div>
