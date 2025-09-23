@@ -16,12 +16,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav className="container py-4 flex items-center justify-between"> */}
         <header className="app-header sticky top-0 z-10">
           <nav className="container py-4 flex items-center justify-between">
-            <Link href="/" className="font-semibold tracking-tight text-lg">Payal Desai</Link>
+            <div className="flex gap-4 text-sm">
+              <a href="/about" className="hover:underline">About</a>
+              <a href="/expertise" className="hover:underline">Expertise</a>
+              <a href="/experience" className="hover:underline">Experience</a>
+              <a href="/case-studies" className="hover:underline">Portfolio</a>
+              <a href="/credentials" className="hover:underline">Credentials</a>
+              <a href="/contact" className="hover:underline">Contact</a>
+            </div>
+            {/* <Link href="/" className="font-semibold tracking-tight text-lg">Payal Desai</Link>
             <a href="/case-studies" className="hover:underline">Case Studies</a>
             <a href="/how-i-work" className="hover:underline">How I Work</a>
             <a href="/skills" className="hover:underline">Skills</a>
             <a href="/work-modes" className="hover:underline">Work Modes</a>
-            <a href="/contact" className="hover:underline">Contact</a>
+            <a href="/contact" className="hover:underline">Contact</a> */}
           </nav>
         </header>
         <main className="container py-10">{children}</main>
