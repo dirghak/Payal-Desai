@@ -12,7 +12,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="min-h-screen antialiased">
-        <header className="border-b bg-white/60 backdrop-blur sticky top-0 z-10">
+        {/* <header className="border-b bg-white/60 backdrop-blur sticky top-0 z-10">
+          <nav className="container py-4 flex items-center justify-between"> */}
+        <header className="app-header sticky top-0 z-10">
           <nav className="container py-4 flex items-center justify-between">
             <Link href="/" className="font-semibold tracking-tight text-lg">Payal Desai</Link>
             <a href="/case-studies" className="hover:underline">Case Studies</a>
