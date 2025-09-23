@@ -7,66 +7,47 @@ import MetricsBeforeAfter from '../components/MetricsBeforeAfter'
 export default function Page() {
   return (
     <div className="space-y-8">
-      <HeroCard>
-        <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
-          <div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Scrum Master helping SaaS, telecom, and financial teams ship faster.
+      <section className="card">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          {/* Left copy */}
+          <div className="max-w-2xl">
+            <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
+              Payal Desai
             </h1>
-            <p className="mt-3 text-slate-700 max-w-2xl">
-              I use evidence-based coaching, lightweight guardrails, and living dashboards to raise predictability,
-              reduce spillover, and unblock cross-team delivery. 95% sprint goal success, consistently.
+            <p className="mt-2 text-xl text-muted">
+              Senior Scrum Master · Agile Delivery & Metrics
+            </p>
+            <p className="mt-4 text-muted">
+              I help SaaS, telecom, and financial teams hit <strong>95% sprint goal success</strong> and ship faster.
+              Evidence-based coaching, lightweight guardrails, and living dashboards—so delivery stays predictable.
             </p>
 
-            <div className="flex gap-3">
-              <a href="/case-studies" className="btn btn-primary">See case studies</a>
-              <a href="/resumes/Payal_Desai.pdf" target="_blank" className="btn btn-outline">Resume (PDF)</a>
+            <div className="chips mt-4">
+              <span className="chip"><i>📍</i> Based in Calgary</span>
+              <span className="chip"><i>🧭</i> Open to new opportunities</span>
+              <span className="chip"><i>📊</i> ADO / Jira</span>
             </div>
 
-            <div className="mt-4 flex flex-wrap gap-2 text-sm">
-              <span className="chip">+30% Velocity (10 sprints)</span>
-              <span className="chip">95% Sprint Goals Met</span>
-              <span className="chip">Spillover −40%</span>
-              <span className="chip">ADO/Jira Dashboards</span>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <a href="/case-studies" className="btn btn-primary">Explore My Work →</a>
+              <a href="/resumes/Payal_Desai.pdf" target="_blank" className="btn btn-ghost">Download Resume</a>
+              <a href="/contact" className="btn btn-success">Connect With Me</a>
             </div>
-             {/* <div className="mt-4 flex flex-wrap gap-2 text-sm">
-              <span className="rounded-full px-3 py-1 bg-indigo-50">+30% Velocity (10 sprints)</span>
-              <span className="rounded-full px-3 py-1 bg-indigo-50">95% Sprint Goals Met</span>
-              <span className="rounded-full px-3 py-1 bg-indigo-50">Spillover −40%</span>
-              <span className="rounded-full px-3 py-1 bg-indigo-50">ADO/Jira Dashboards</span>
-            </div> */}
           </div>
 
-          {/* <div className="flex gap-3">
-            <Link href="/case-studies" className="rounded-2xl px-4 py-2 bg-indigo-600 text-white shadow-soft hover:bg-indigo-700">
-              See case studies
-            </Link>
-            <Link href="/resumes/Payal_Desai.pdf" target="_blank" className="rounded-2xl px-4 py-2 border border-slate-300 bg-white">
-              Resume (PDF)
-            </Link>
-          </div>  */}
+          {/* Optional profile circle (replace src) */}
+          <div className="shrink-0">
+            <div style={{width:160,height:160}} className="rounded-full overflow-hidden ring-4 ring-white shadow-[0_12px_28px_rgba(2,6,23,.12)] bg-[radial-gradient(circle_at_50%_40%,#DDE3FF,#F7F8FF)] flex items-center justify-center">
+              <span className="text-4xl">🙋‍♀️</span>
+            </div>
+          </div>
         </div>
-      </HeroCard>
 
-      {/* Optional: Before/After metrics on home */}
-      <section className="card">
-        <h2 className="text-xl font-semibold mb-4">Before → After (selected teams)</h2>
-        <div className="grid md:grid-cols-3 gap-4">
-          <div className="rounded-2xl border p-4">
-            <div className="text-sm text-slate-500 mb-1">Velocity</div>
-            <div className="text-2xl font-semibold">+30%</div>
-            <div className="text-sm text-slate-600">Measured across 10 sprints</div>
-          </div>
-          <div className="rounded-2xl border p-4">
-            <div className="text-sm text-slate-500 mb-1">Spillover</div>
-            <div className="text-2xl font-semibold">−40%</div>
-            <div className="text-sm text-slate-600">DoR + WIP guardrails</div>
-          </div>
-          <div className="rounded-2xl border p-4">
-            <div className="text-sm text-slate-500 mb-1">Sprint Goal Success</div>
-            <div className="text-2xl font-semibold">95%</div>
-            <div className="text-sm text-slate-600">Stabilized predictability</div>
-          </div>
+        {/* KPIs row */}
+        <div className="grid md:grid-cols-3 gap-4 mt-6">
+          <div className="kpi"><div className="value">+30%</div><div className="label">Velocity (10 sprints)</div></div>
+          <div className="kpi"><div className="value">95%</div><div className="label">Sprint goals met</div></div>
+          <div className="kpi"><div className="value">−40%</div><div className="label">Spillover after guardrails</div></div>
         </div>
       </section>
     </div>
