@@ -20,7 +20,7 @@ export default function Page() {
 
             <div className="flex gap-3">
               <a href="/case-studies" className="btn btn-primary">See case studies</a>
-              <a href="/resumes/Payal Desai_CV.pdf" target="_blank" className="btn btn-outline">Resume (PDF)</a>
+              <a href="/resumes/Payal_Desai.pdf" target="_blank" className="btn btn-outline">Resume (PDF)</a>
             </div>
 
             <div className="mt-4 flex flex-wrap gap-2 text-sm">
