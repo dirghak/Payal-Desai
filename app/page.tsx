@@ -29,22 +29,22 @@ export default function Page() {
               <span className="chip">Spillover −40%</span>
               <span className="chip">ADO/Jira Dashboards</span>
             </div>
-            {/* <div className="mt-4 flex flex-wrap gap-2 text-sm">
+             {/* <div className="mt-4 flex flex-wrap gap-2 text-sm">
               <span className="rounded-full px-3 py-1 bg-indigo-50">+30% Velocity (10 sprints)</span>
               <span className="rounded-full px-3 py-1 bg-indigo-50">95% Sprint Goals Met</span>
               <span className="rounded-full px-3 py-1 bg-indigo-50">Spillover −40%</span>
               <span className="rounded-full px-3 py-1 bg-indigo-50">ADO/Jira Dashboards</span>
-            </div>
+            </div> */}
           </div>
 
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             <Link href="/case-studies" className="rounded-2xl px-4 py-2 bg-indigo-600 text-white shadow-soft hover:bg-indigo-700">
               See case studies
             </Link>
             <Link href="/resumes/Payal_Desai.pdf" target="_blank" className="rounded-2xl px-4 py-2 border border-slate-300 bg-white">
               Resume (PDF)
             </Link>
-          </div> */}
+          </div>  */}
         </div>
       </HeroCard>
 
