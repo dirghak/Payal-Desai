@@ -18,7 +18,18 @@ export default function Page() {
               reduce spillover, and unblock cross-team delivery. 95% sprint goal success, consistently.
             </p>
 
+            <div className="flex gap-3">
+              <a href="/case-studies" className="btn btn-primary">See case studies</a>
+              <a href="/resumes/Payal Desai_CV.pdf" target="_blank" className="btn btn-outline">Resume (PDF)</a>
+            </div>
+
             <div className="mt-4 flex flex-wrap gap-2 text-sm">
+              <span className="chip">+30% Velocity (10 sprints)</span>
+              <span className="chip">95% Sprint Goals Met</span>
+              <span className="chip">Spillover −40%</span>
+              <span className="chip">ADO/Jira Dashboards</span>
+            </div>
+            {/* <div className="mt-4 flex flex-wrap gap-2 text-sm">
               <span className="rounded-full px-3 py-1 bg-indigo-50">+30% Velocity (10 sprints)</span>
               <span className="rounded-full px-3 py-1 bg-indigo-50">95% Sprint Goals Met</span>
               <span className="rounded-full px-3 py-1 bg-indigo-50">Spillover −40%</span>
@@ -33,7 +44,7 @@ export default function Page() {
             <Link href="/resumes/Payal_Desai.pdf" target="_blank" className="rounded-2xl px-4 py-2 border border-slate-300 bg-white">
               Resume (PDF)
             </Link>
-          </div>
+          </div> */}
         </div>
       </HeroCard>
 
