@@ -1,33 +1,50 @@
 
 
-export default function HowIWorkPage() {
-    return (
-      <div className="space-y-8">
-        <h1 className="text-2xl font-bold tracking-tight">How I Work</h1>
-  
-        <section className="card space-y-2">
-          <ol className="list-decimal pl-5 space-y-2">
-            <li><strong>Discover:</strong> Baseline flow metrics (velocity, predictability, spillover, lead time).</li>
-            <li><strong>Align:</strong> DoR/DoD + capacity & risk guardrails, agreed with PO & leads.</li>
-            <li><strong>Instrument:</strong> Sprint Health + dependency/risk boards (ADO/Jira queries).</li>
-            <li><strong>Coach:</strong> Ritual redesign (planning, refinement, demos, retros) with playbooks.</li>
-            <li><strong>Stabilize:</strong> Weekly metrics review; remove systemic blockers early.</li>
-            <li><strong>Evolve:</strong> Quarterly health check; refresh dashboards and agreements.</li>
-          </ol>
-        </section>
-  
-        <section className="card">
-          <h2 className="text-lg font-semibold mb-2">Operational Artifacts I Deliver</h2>
-          <ul className="list-disc pl-5 space-y-1">
-            <li>Definition of Ready / Definition of Done matrix</li>
-            <li>Sprint Health dashboard (velocity, predictability, aging WIP)</li>
-            <li>Dependency & risk board with owners</li>
-            <li>Retro action tracker (owners, due dates)</li>
-            <li>Release burn-up / forecast view</li>
-            <li>Demo script & scoring rubric</li>
-          </ul>
-        </section>
+const items = [
+  {
+    title:'Agile Coaching & Ceremonies',
+    bullets:['Scrum/SAFe rituals','Outcome-based demos','Retro action follow-through']
+  },
+  {
+    title:'Program Delivery & Dependencies',
+    bullets:['Risk/Dependency board','Capacity + dependency breakouts','Cross-team unblock']
+  },
+  {
+    title:'Metrics & Dashboards',
+    bullets:['ADO/Jira queries','Sprint health, blocker aging','Release burn-up']
+  },
+  {
+    title:'Backlog & Readiness',
+    bullets:['DoR checklist + SLAs','Story mapping & value slicing','AC workshops']
+  },
+  {
+    title:'QA/Dev Collaboration',
+    bullets:['Definition of Done','Test readiness','UAT tracking & gates']
+  },
+  {
+    title:'Training & Leadership',
+    bullets:['Playbooks & templates','New-team onboarding','Stakeholder workshops']
+  },
+]
+
+export default function ExpertisePage(){
+  return (
+    <div className="space-y-6">
+      <h1 className="text-3xl font-bold section-title">Expertise</h1>
+      <p className="text-muted">10+ years of turning teams’ intent into reliable delivery.</p>
+
+      <div className="grid md:grid-cols-3 gap-6">
+        {items.map((it)=>(
+          <article key={it.title} className="card">
+            <div className="icon-circle mb-3">✅</div>
+            <h2 className="font-semibold text-lg mb-1">{it.title}</h2>
+            <ul className="list-disc pl-5 text-muted space-y-1">
+              {it.bullets.map(b=><li key={b}>{b}</li>)}
+            </ul>
+          </article>
+        ))}
       </div>
-    )
-  }
+    </div>
+  )
+}
   
