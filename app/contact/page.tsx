@@ -13,7 +13,7 @@ export default function ContactPage() {
             LinkedIn: <a className="underline" href="https://www.linkedin.com/in/payal-desai-safe/" target="_blank" rel="noreferrer">linkedin.com/in/payal-desai-safe</a>
           </p>
           <p>
-            Resume: <a className="underline" href="/resumes/Payal Desai_CV.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+            Resume: <a className="underline" href="/resumes/Payal_Desai.pdf" target="_blank" rel="noreferrer">Open PDF</a>
           </p>
         </div>
       </div>
