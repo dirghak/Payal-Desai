@@ -7,16 +7,19 @@ export default function CredentialsPage(){
         <section className="card">
           <h2 className="font-semibold mb-2">Education</h2>
           <ul className="list-disc pl-5 text-muted space-y-1">
-            <li>Master’s coursework / certifications relevant to Agile (if any)</li>
-            <li>Any notable short programs or workshops</li>
+            <li>Gujarat Technological University, India - Bachelor Of Engineering In Information Technology</li>
+            <li>Courses: Agile Methodologies, Software Development Life Cycle (SDLC), Project Management, Data Structures, Database Management Systems</li>
+            <li>Concentration: Agile Project Management, Software Engineering, Information Systems</li>          
           </ul>
         </section>
 
         <section className="card">
           <h2 className="font-semibold mb-2">Awards</h2>
           <ul className="list-disc pl-5 text-muted space-y-1">
-            <li>Team Excellence / Delivery Recognition (add specifics if available)</li>
-            <li>Customer/PO kudos for predictability and demo quality</li>
+            <li>Star Performer, Employee of the Month	Mar-2020</li>
+            <li>For outstanding contribution to the organization with process improvement initiatives and timely delivery of high-quality integrated solutions, and remarkable achievements in Project Deliverables.</li>
+            <li>Rising Star of the month	Jan-2016</li>     
+             <li>For performing remarkably well within the first year of joining.</li>  
           </ul>
         </section>
 
