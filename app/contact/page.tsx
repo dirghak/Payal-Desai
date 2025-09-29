@@ -2,9 +2,9 @@ export default function ContactPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-bold section-title">Let’s Work Together</h1>
-      <p className="text-slate-600">
+      {/* <p className="text-slate-600">
         Open to Sr. Scrum Master / Scrum Master II • Hybrid/Remote • Calgary / Canada-wide.
-      </p>
+      </p> */}
 
       <div className="grid md:grid-cols-2 gap-6">
         {/* Left: contact channels */}
