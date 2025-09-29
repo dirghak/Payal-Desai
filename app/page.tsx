@@ -45,7 +45,7 @@ export default function Page() {
           <div className="shrink-0">
             <div style={{ width: 160, height: 160, borderRadius: "9999px", overflow: "hidden" }}>
             <img
-              src="/photo3.jpeg"
+              src="/photo.jpeg"
               alt="Payal Desai"
               width={160}            // draw exactly at 160px to avoid browser resampling
               height={160}
