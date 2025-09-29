@@ -47,7 +47,7 @@ export default function Page() {
     style={{ width: 160, height: 160, borderRadius: "9999px", overflow: "hidden" }}
   >
     <img
-      src="/photo.jpeg"
+      src="/photo2.jpeg"
       alt="Payal Desai"
       width={160}            // draw exactly at 160px to avoid browser resampling
       height={160}
