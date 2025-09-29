@@ -17,7 +17,7 @@ export default function CredentialsPage(){
           <h2 className="font-semibold mb-2">Awards</h2>
           <ul className="list-disc pl-5 text-muted space-y-1">
             <li>Star Performer — Employee of the Month (Mar 2020): Drove process improvements and shipped high-quality, on-time releases across integrated solutions.</li>
-            <li>Rising Star of the month	(Jan 2016) - For performing remarkably well within the first year of joining.</li>     
+            <li>Rising Star of the month	(Jan 2016) — For performing remarkably well within the first year of joining.</li>     
           </ul>
         </section>
 
