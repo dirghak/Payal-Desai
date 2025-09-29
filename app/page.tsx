@@ -44,11 +44,11 @@ export default function Page() {
         </div>
 
         {/* KPIs row */}
-        <div className="grid md:grid-cols-3 gap-4 mt-6">
+        {/* <div className="grid md:grid-cols-3 gap-4 mt-6">
           <div className="kpi"><div className="value">+30%</div><div className="label">Velocity (10 sprints)</div></div>
           <div className="kpi"><div className="value">95%</div><div className="label">Sprint goals met</div></div>
           <div className="kpi"><div className="value">−40%</div><div className="label">Spillover after guardrails</div></div>
-        </div>
+        </div> */}
       </section>
     </div>
   )
