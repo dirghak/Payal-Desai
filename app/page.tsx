@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import HeroCard from '../components/HeroCard'
 import MetricsBeforeAfter from '../components/MetricsBeforeAfter'
+import Image from 'next/image'
 
 <MetricsBeforeAfter />
 
@@ -47,7 +48,6 @@ export default function Page() {
     style={{ width: 160, height: 160 }}
     className="relative rounded-full overflow-hidden ring-4 ring-white shadow-[0_12px_28px_rgba(2,6,23,.12)]"
   >
-    {/* Subtle halo behind the photo */}
     <div
       className="absolute inset-0 pointer-events-none"
       style={{
@@ -55,11 +55,13 @@ export default function Page() {
           "radial-gradient(60% 60% at 50% 40%, rgba(238,242,255,0.9), rgba(255,255,255,0) 70%)",
       }}
     />
-    <img
-      src="/photo.jpeg"        // <-- if you used a different file name, change it here
+    <Image
+      src="/me.jpg"
       alt="Payal Desai"
-      className="w-full h-full object-cover"
-      loading="eager"
+      width={160}
+      height={160}
+      className="object-cover"
+      priority
     />
   </div>
 </div>
