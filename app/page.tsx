@@ -42,26 +42,17 @@ export default function Page() {
               <span className="text-4xl">🙋‍♀️</span>
             </div>
           </div> */}
-
           <div className="shrink-0">
   <div
-    style={{ width: 160, height: 160 }}
-    className="relative rounded-full overflow-hidden ring-4 ring-white shadow-[0_12px_28px_rgba(2,6,23,.12)]"
+    style={{ width: 160, height: 160, borderRadius: "9999px", overflow: "hidden" }}
   >
-    <div
-      className="absolute inset-0 pointer-events-none"
-      style={{
-        background:
-          "radial-gradient(60% 60% at 50% 40%, rgba(238,242,255,0.9), rgba(255,255,255,0) 70%)",
-      }}
-    />
-    <Image
+    <img
       src="/photo.jpeg"
       alt="Payal Desai"
-      width={160}
+      width={160}            // draw exactly at 160px to avoid browser resampling
       height={160}
-      className="object-cover"
-      priority
+      style={{ display: "block" }}
+      loading="eager"
     />
   </div>
 </div>
