@@ -48,12 +48,12 @@ export default function Page() {
               src="/photo.jpeg"
               alt="Payal Desai"
               style={{
-                display: "block",
-                width: "320px",              // pick the display width you want
-                height: "420px",             // set a height to allow cropping
-                objectFit: "cover",          // zoom/crop instead of squish
-                objectPosition: "50% 40%",   // show a little more above the center
-                borderRadius: "16px"         // optional rounded corners
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",        // fill the circle
+                objectPosition: "50% 42%", // nudge the crop slightly up (42% = a bit above center)
+                transform: "scale(1.08)",  // gentle zoom
+                transformOrigin: "50% 45%" // pivot slightly above center so bottom isn’t clipped
               }}
               loading="eager"/>
             </div>
