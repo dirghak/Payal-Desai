@@ -47,9 +47,14 @@ export default function Page() {
             <img
               src="/photo.jpeg"
               alt="Payal Desai"
-              width={160}            // draw exactly at 160px to avoid browser resampling
-              height={160}
-              style={{ display: "block" }}
+              style={{
+                display: "block",
+                width: "320px",              // pick the display width you want
+                height: "420px",             // set a height to allow cropping
+                objectFit: "cover",          // zoom/crop instead of squish
+                objectPosition: "50% 40%",   // show a little more above the center
+                borderRadius: "16px"         // optional rounded corners
+              }}
               loading="eager"/>
             </div>
           </div>
