@@ -36,11 +36,33 @@ export default function Page() {
           </div>
 
           {/* Optional profile circle (replace src) */}
-          <div className="shrink-0">
+          {/* <div className="shrink-0">
             <div style={{width:160,height:160}} className="rounded-full overflow-hidden ring-4 ring-white shadow-[0_12px_28px_rgba(2,6,23,.12)] bg-[radial-gradient(circle_at_50%_40%,#DDE3FF,#F7F8FF)] flex items-center justify-center">
               <span className="text-4xl">🙋‍♀️</span>
             </div>
-          </div>
+          </div> */}
+
+          <div className="shrink-0">
+  <div
+    style={{ width: 160, height: 160 }}
+    className="relative rounded-full overflow-hidden ring-4 ring-white shadow-[0_12px_28px_rgba(2,6,23,.12)]"
+  >
+    {/* Subtle halo behind the photo */}
+    <div
+      className="absolute inset-0 pointer-events-none"
+      style={{
+        background:
+          "radial-gradient(60% 60% at 50% 40%, rgba(238,242,255,0.9), rgba(255,255,255,0) 70%)",
+      }}
+    />
+    <img
+      src="/photo.jpeg"        // <-- if you used a different file name, change it here
+      alt="Payal Desai"
+      className="w-full h-full object-cover"
+      loading="eager"
+    />
+  </div>
+</div>
         </div>
 
         {/* KPIs row */}
