@@ -22,11 +22,11 @@ export default function Page() {
               Evidence-based coaching, lightweight guardrails, and living dashboards—so delivery stays predictable.
             </p>
 
-            <div className="chips mt-4">
+            {/* <div className="chips mt-4">
               <span className="chip"><i>📍</i> Based in Calgary</span>
               <span className="chip"><i>🧭</i> Open to new opportunities</span>
               <span className="chip"><i>📊</i> ADO / Jira</span>
-            </div>
+            </div> */}
 
             <div className="mt-5 flex flex-wrap gap-3">
               <a href="/case-studies" className="btn btn-primary">Explore My Work →</a>
