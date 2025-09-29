@@ -56,7 +56,7 @@ export default function Page() {
       }}
     />
     <Image
-      src="/me.jpg"
+      src="/photo.jpeg"
       alt="Payal Desai"
       width={160}
       height={160}
