@@ -43,19 +43,16 @@ export default function Page() {
             </div>
           </div> */}
           <div className="shrink-0">
-  <div
-    style={{ width: 160, height: 160, borderRadius: "9999px", overflow: "hidden" }}
-  >
-    <img
-      src="/photo2.jpeg"
-      alt="Payal Desai"
-      width={160}            // draw exactly at 160px to avoid browser resampling
-      height={160}
-      style={{ display: "block" }}
-      loading="eager"
-    />
-  </div>
-</div>
+            <div style={{ width: 160, height: 160, borderRadius: "9999px", overflow: "hidden" }}>
+            <img
+              src="/photo1.jpeg"
+              alt="Payal Desai"
+              width={160}            // draw exactly at 160px to avoid browser resampling
+              height={160}
+              style={{ display: "block" }}
+              loading="eager"/>
+            </div>
+          </div>
         </div>
 
         {/* KPIs row */}
