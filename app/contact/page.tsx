@@ -46,14 +46,18 @@ export default function ContactPage() {
         <section className="card">
           <p><strong>Typical response:</strong> within 24 hours (Mon–Fri)</p>
           <p><strong>Time zone:</strong> America/Edmonton (MT)</p>
-          <p className="text-slate-600 mt-2">Prefer calendar scheduling? I can add a booking link here later.</p>
+         
 
           <div className="mt-4 flex flex-wrap gap-3">
             <a className="btn btn-primary" href="mailto:payalukani92@gmail.com">Email Me</a>
             <a className="btn btn-ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/payal-desai-safe/">
               Message on LinkedIn
             </a>
-            <a className="btn btn-ghost" href="tel:+16473273249">Call / WhatsApp</a>
+            {/* <a className="btn btn-ghost" href="tel:+16473273249">Call / WhatsApp</a> */}
+            <a className="btn btn-primary" href="https://calendly.com/payal-scrummaster" target="_blank" rel="noreferrer">
+              <img src="/icon-calendar.svg" alt="" width={22} height={22} />
+              Book a Call
+            </a>
           </div>
         </section>
       </div>
