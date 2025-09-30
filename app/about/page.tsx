@@ -8,8 +8,8 @@ export default function AboutPage(){
         <article className="card">
           <h2 className="text-xl font-semibold mb-2">Decade of Agile Delivery</h2>
           <p className="text-muted">
-            I help SaaS, telecom, and financial teams hit <strong>95% sprint goal success</strong> and ship faster.
-              Evidence-based coaching, lightweight guardrails, and living dashboards—so delivery stays predictable.
+            I’ve coached cross-functional teams across mortgage servicing, telco/OTT integration, and collaboration SaaS.
+            My approach focuses on clear readiness criteria, visual dependency/risk management, and weekly metric reviews that drive behavior—not vanity charts.
           </p>
           <p className="text-muted mt-3">
             I partner with Product, Engineering, and QA to build DoR/DoD guardrails, unblock cross-team work, and make outcomes visible via Azure DevOps/Jira dashboards.
