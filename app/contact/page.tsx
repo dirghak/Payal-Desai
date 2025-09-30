@@ -55,7 +55,6 @@ export default function ContactPage() {
             </a>
             {/* <a className="btn btn-ghost" href="tel:+16473273249">Call / WhatsApp</a> */}
             <a className="btn btn-primary" href="https://calendly.com/payal-scrummaster" target="_blank" rel="noreferrer">
-              <img src="/icon-calendar.svg" alt="" width={22} height={22} />
               Book a Call
             </a>
           </div>
