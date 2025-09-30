@@ -43,7 +43,7 @@ export default function Page() {
   {/* Buttons */}
   <div className="mt-5 flex flex-wrap justify-center gap-3">
     <a href="/case-studies" className="btn btn-primary">Explore My Work →</a>
-    <a href="/resumes/Payal Desai_CV.pdf" target="_blank" className="btn btn-ghost">Download Resume</a>
+    <a href="/resumes/Payal_Desai.pdf" target="_blank" className="btn btn-ghost">Download Resume</a>
     <a href="/contact" className="btn btn-success">Connect With Me</a>
   </div>
 </section>
