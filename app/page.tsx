@@ -37,7 +37,7 @@ export default function Page() {
 
   {/* One-paragraph value prop (your Option B) */}
   <p className="mt-4 text-slate-700 max-w-2xl mx-auto">
-    Predictable delivery, every two weeks: <strong>95% goals met</strong>, <strong>+30% velocity</strong>, <strong>−40% spillover</strong>—powered by practical coaching, DoR/DoD guardrails, and dashboards that drive action.
+    I turn team chaos into steady cadence—using evidence-based coaching, light guardrails, and living dashboards—to keep delivery predictable with <strong>95% sprint goals hit</strong>, <strong>+30% velocity</strong>, and <strong>−40% spillover</strong>.
   </p>
 
   {/* Buttons */}
