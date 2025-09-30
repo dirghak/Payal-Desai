@@ -50,7 +50,7 @@ export default function ContactPage() {
 
           <div className="mt-4 flex flex-wrap gap-3">
             <a className="btn btn-primary" href="mailto:payalukani92@gmail.com">Email Me</a>
-            <a className="btn btn-ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/payal-desai-safe/">
+            <a className="btn btn-primary" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/payal-desai-safe/">
               Message on LinkedIn
             </a>
             {/* <a className="btn btn-ghost" href="tel:+16473273249">Call / WhatsApp</a> */}
