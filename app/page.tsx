@@ -16,7 +16,7 @@ export default function Page() {
       className="rounded-full overflow-hidden ring-4 ring-white shadow-[0_12px_28px_rgba(2,6,23,.12)]"
     >
       <img
-        src="/me.jpg"            // keep your filename here
+        src="/photo.jpeg"            // keep your filename here
         alt="Payal Desai"
         style={{
           width: "100%",
